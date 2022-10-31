@@ -1,0 +1,1204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>website 2</title>
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <main  style="display:none;" id="myDiv" class="animate-bottom" >
+        <!-- <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white pad-logo" href="#"  style="font-size:30px;"><h5><img src="./clothes/logo1.png" width="100px" ></h5></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav" style="font-size:20px;">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white bold" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#Portfolio">Collection</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#Service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#team">Kids</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">More</a>
+                  </li>
+                </ul>
+              </div>
+            
+              <ol style="list-style: none; padding-right: 100px; padding-top: 10px; display: inline-block;">
+                <li style="color: white;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
+                </svg>&nbsp; CART</li>    
+              </ol>
+            </div>
+          </nav> -->
+          <nav class="navbar navbar-expand-lg navbar-red navbar-dark">
+            <div class="wrapper">
+              
+            </div>
+      <div class="container-fluid all-show">
+        <a class="navbar-brand" href="#"><h5><img src="./clothes/logo1.png" width="100px" ></h5></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" > -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+            </li>
+            
+            
+          </ul>
+          <div class="d-flex flex-column sim" >
+            <ol style="list-style: none; padding-right: 100px; padding-top: 10px; display: inline-block; padding-left: 300px;">
+              <li style="color: white;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
+              </svg>&nbsp; CART</li>    
+            </ol>     
+          </div>
+          
+        </div>
+      </div>
+   
+    </nav>
+
+          <div class="container-fluid imgslider">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <div class="hide">
+              <ol>
+                <li data-target="#myCarousel" class="active"></li>
+                <li data-target="#myCarousel" ></li>
+                <li data-target="#myCarousel" ></li>
+              </ol>
+              </div>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="fitness1.jpg" alt="Los Angeles" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h1>BlackBerry</h1>
+                    <p style="font-size:30px; color: red;">!Discount 30% Off</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="./background.jpg" alt="Chicago" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h1>GUCCI</h1>
+                    <p style="font-size:20px; color: red;">I don't want to be too 'classic' because it's not in the DNA of Gucci.</p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="fitness2.jpg" alt="New York" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h1>Peter England</h1>
+                    <p style="font-size:20px;">Fitness Marathon by Peter England</p>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <!-- Attacted button  -->
+          <div class="container-fluid btnmargin">
+            <div class="row">
+              <div class="col-lg hei">
+                <button type="button" class="btn btn-primary btn-lg btn-block" style="font-size:20px;"><img src="./airplane (1).svg" width="20px">&nbsp;SPIPPING WORLDWIDE</button>
+              </div>
+              <div class="col-lg hei">
+                <button type="button" class="btn btn-warning btn-lg btn-block " style="font-size:20px;"> <img src="./arrow-clockwise.svg" width="20px">&nbsp;100% MONEY BACK-40H</button>
+              </div>
+              <div class="col-lg hei">
+              
+                <button type="button" class="btn btn-danger btn-lg btn-block" style="font-size:20px;"><img src="./gear-wide-connected.svg" width="20px">&nbsp; 24/7 ONLINE SUPPORT</button>
+              </div>
+            </div>
+            
+          </div>
+          <section class="container text-center ourservice justify-content-center">
+            <h1 id="Portfolio">FRATURED COLLECTION</h1>
+            <img src="./clothes/line.png" class="center">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active h5" aria-current="page" href="#" ><h3>Menu</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h3>Women</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h3>Kids</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "><h3>Shoes</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "><h3>Hike</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "><h3>Watches</h3></a>
+              </li>
+            </ul>
+            <div class="row">
+                <div class="col-md d-block m-auto pad" onclick="openNav()">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">Peter England</h5>
+                          <p class="card-text" style="color:red;">$100</p>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                  <div class="card" style="width: 18rem;" >
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6" >
+                      <div class="card-body">
+                        <h5 class="card-title">Nike</h5>
+                        <p class="card-text" style="color:red;">$90</p>
+                      
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md d-block m-auto pad">
+                <div class="card" style="width: 18rem;">
+                  <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                    <div class="card-body">
+                      <h5 class="card-title">Zara</h5>
+                      <p class="card-text" style="color:red;">$110</p>
+                    
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-block m-auto pad">
+              <div class="card" style="width: 18rem;">
+                <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                  <div class="card-body">
+                    <h5 class="card-title">Boss</h5>
+                    <p class="card-text" style="color:red;">$80</p>
+                  
+                  </div>
+                </div>
+          </div>
+          
+                <div class="col-md d-block m-auto pad">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">Gucci</h5>
+                          <p class="card-text" style="color:red;">$120</p>
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">H&M</h5>
+                          <p class="card-text" style="color:red;">$70</p>
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">Gas</h5>
+                          <p class="card-text" style="color:red;">$150</p>
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">Gap</h5>
+                          <p class="card-text" style="color:red;">$120</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                        <div class="card-body">
+                          <h5 class="card-title">Rock</h5>
+                          <p class="card-text" style="color:red;">$77</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-block m-auto pad">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                      <div class="card-body">
+                        <h5 class="card-title">Dunk</h5>
+                        <p class="card-text" style="color:red;">$70</p>
+                       
+                      </div>
+                    </div>
+                    
+              </div>
+              <div class="col-md d-block m-auto pad">
+                <div class="card" style="width: 18rem;">
+                  <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                    <div class="card-body">
+                      <h5 class="card-title">D&G</h5>
+                      <p class="card-text" style="color:red;">$300</p>
+                     
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md d-block m-auto pad">
+              <div class="card" style="width: 18rem;">
+                <img src="./clothes/c2.jpg" class="card-img-top " alt="port6">
+                  <div class="card-body">
+                    <h5 class="card-title">Puma</h5>
+                    <p class="card-text" style="color:red;">$99</p>
+                   
+                  </div>
+                </div>
+          </div>
+            </div>
+          </section>
+          <img src="./clothes/line.png" class="center">
+          <div class="row width-col">
+            <div class="col-md-6 hotdeal1"></div>
+            <div class="col-md-6 hotdeal" style="background-color:white">
+              <div class="container  text-dark headerset ">
+                <h5>HOT DEALS</h5>
+                <h1 class="font">BUY NOW</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                 <br>
+                 <h1 class="font" style="color: red;";>$230</h1>
+                 <br>
+                 <p class="font1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, 
+                  nisi incidunt consectetur minima sed ex perspiciatis in nemo illo quasi.
+                   Ducimus, quisquam pariatur quo totam deserunt quam sapiente veritatis dicta.</p>
+                   <br>
+                   
+                   
+                    <ul class="nav">
+                     
+                      <h1>> Size</h1>
+                     <li class="nav-item mar">
+                       <a class="nav-link active" href="#"><h3>M</h3></a>
+                     </li>
+                     <li class="nav-item mar">
+                       <a class="nav-link" href="#"><h3>|&nbsp;X</h3></a>
+                     </li>
+                     <li class="nav-item mar">
+                       <a class="nav-link" href="#"><h3>|&nbsp;XL</h3></a>
+                     </li>
+                     <li class="nav-item mar">
+                       <a class="nav-link " href="#"><h3>|&nbsp; XLL</h3></a>
+                     </li>
+                   </ul>
+
+                   <ul class="nav">
+                    
+                   <li class="nav-item mar">
+                    <button type="button" class="btn btn-primary">25 <br> days</button>
+                   </li>
+                   &nbsp;
+                   <li class="nav-item mar">
+                    <button type="button" class="btn btn-primary">26 <br> days</button>
+                   </li>
+                   &nbsp;
+                   <li class="nav-item mar">
+                    <button type="button" class="btn btn-primary">27 <br> days</button>
+                   </li>
+                   &nbsp;
+                   <li class="nav-item mar">
+                    <button type="button" class="btn btn-primary">30 <br> days</button>
+                   </li>
+                 </ul>
+                   
+                  
+              </div>
+            </div>
+           
+          </div>
+          <img src="./clothes/line.png" class="center">
+          <div class="row padd">
+            <h1 style="text-align:center; font-size: 35px; padding-bottom:20px;" >INSTAGRAM</h1>
+            <div class="col hei" ><img src="./clothes/i1.jpg"></div>
+            <div class="col hei"><img src="./clothes/i2.jpg"></div>
+            <div class="col hei" ><img src="./clothes/i3.jpg"></div>
+            <div class="col hei"><img src="./clothes/i4.jpg"></div>
+          </div>
+         <div class="container threebox">
+  <img src="./clothes/line.png" class="center">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h1>Top Rate</h1>
+      </div>
+      <div class="col">
+        <h1>Top View</h1>
+      </div>
+      <div class="col">
+        <h1>Low Rate</h1>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid">
+   
+    <div class="scrollbar wid" id="style-7" >
+         <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Gucci</h3>
+              <p>$87</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Peter Engand</h3>
+              <p>$100</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Gucci</h3>
+              <p>$99</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>One</h3>
+              <p>$32</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>B&D</h3>
+              <p>$88</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Nike</h3>
+              <p>$99</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Gap</h3>
+              <p>$199</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Gas</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>West</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Point</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          <div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div><div class="row kin">
+            <div class="col-md-5">
+              <a onclick="openNav()">
+                <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <h3>Birla</h3>
+              <p>$80</p>
+              <a class="btn btn-primary" onclick="openNav()">View</a>
+            </div>
+          </div>
+          
+    
+    </div>
+    
+    <div class="scrollbar wid" id="style-7" >
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Birla</h3>
+          <p>$80</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Cool</h3>
+          <p>$81</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Pointless</h3>
+          <p>$88</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>One</h3>
+          <p>$32</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Pointless</h3>
+          <p>$80</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Peter</h3>
+          <p>$98</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>England</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Indiana</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$99</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$95</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div><div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+          
+    
+    </div>
+    
+    <div class="scrollbar wid" id="style-7" >
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>LocalT</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Point</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Pointless</h3>
+          <p>$91</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>One</h3>
+          <p>$32</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Pointless</h3>
+          <p>$50</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gap</h3>
+          <p>$51</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gas</h3>
+          <p>$54</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gasone</h3>
+          <p>$56</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Nike</h3>
+          <p>$52</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Addas</h3>
+          <p>$57</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Momday</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+      <div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div><div class="row kin">
+        <div class="col-md-5">
+          <a onclick="openNav()">
+            <img class="img-fluid" src="./port1.jpg" alt="" width="200px">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3>Gucci</h3>
+          <p>$40</p>
+          <a class="btn btn-primary" onclick="openNav()">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+         
+         </div>
+       
+<div id="carouselExampleControls" class="carousel slide text-center carousel-dark " data-mdb-ride="carousel" >
+  <img src="./clothes/line.png" class="center">
+  <h1>TESTOMONIAL</h1>
+  <div class="carousel-inner bg-image">
+    <div class="carousel-item active">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+        style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3" style="font-size:15px; font-weight: 600;">Maria Kate</h5>
+          <p style="font-size:10px; font-weight: 600;">Photographer</p>
+          <p class="text-dark" style="font-size:15px; font-weight: 600;">
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+            doloremque.
+          </p>
+        </div>
+      </div>
+   
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="prev">
+    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="next">
+    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container text-center heia">
+  <div class="row">
+    <div class="col widd"><button type="button" class="btn btn-light btn-lg btn-block" style="font-size:20px;">INSTAGRAM</button></div>
+    <div class="col widd"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size:20px;">FACEBOOK</button></div>
+    <div class="col widd"><button type="button" class="btn btn-info btn-lg btn-block" style="font-size:20px;">TWITTER</button></div>
+    <div class="col widd"><button type="button" class="btn btn-danger btn-lg btn-block" style="font-size:20px;">GOOGLE</button></div>
+  </div>
+  
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white footerpad">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+
+    <!-- Section: Form -->
+   <section class="container">
+    <div class="justify-content-center logopad"><h1><img src="./clothes/logo1.png"></h1></div>
+   </section>
+
+   <section class="container">
+    <div class="justify-content-center"><p style="font-size:15px; font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid tempora, 
+      consectetur voluptates natus eum quod aspernatur numquam nisi laborum magnam vitae optio 
+      perspiciatis quasi amet eius ut dicta soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Possimus voluptatem temporibus, alias quae obcaecati maxime harum at laudantium quod expedita consequatur. 
+      Suscipit dolor reiciendis eligendi eos totam doloribus dolorum voluptate.</p></div>
+   </section>
+
+    <section class="mb-4">
+     
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./Alipay-Logo.wine.svg" width="50px"></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./Google_Pay-Logo.wine.svg" width="50px"></a>
+
+     
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./PayPal-Logo.wine.svg" width="50px"></a>
+
+   
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./Paytm-Logo.wine.svg" width="50px"></a>
+
+ 
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./PhonePe-Logo.wine.svg" width="50px"></a>
+
+
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="./Cash_App-Logo.wine.svg" width="50px"></a>
+    </section>
+  </div>
+
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://www.neosofttech.com/">NeoSoft Tech</a>
+  </div>
+ 
+</footer>
+<!-- Footer -->
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
+            <!-- it is used for overlap the screen for portfolio -->
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+              }
+              
+              function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+              }
+              </script>
+        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </main>
+    
+  
+  
+     <!-- Overlap the screen for portfolio -->
+     <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <h1 style="color:white;">Details Clothes</h2>
+      </div>
+    </div>
+  </body>
+</html>
